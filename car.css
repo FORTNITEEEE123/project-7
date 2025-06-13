@@ -1,0 +1,44 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+img{
+    margin-top: 50px;
+    transition: 0.50s
+   
+}
+img:hover{
+    transform: translate(0px,-50px);
+}
+header {
+    background-color:gray;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav a{
+    background: gray;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    
+}
+@keyframes mymove {
+    0%   {top: 0px;
+    }
+    25%  {top: 200px;
+    }
+    50%  {top: 100px;
+    }
+    75%  {top: 200px;
+    }
+    100% {top: 0px;
+    }
+}
